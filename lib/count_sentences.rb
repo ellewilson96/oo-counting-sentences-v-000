@@ -15,10 +15,6 @@ class String
   end
 
   def count_sentences
-    if self.length = nil
-      puts "0"
-    else
-      return self.length
-  end
+    self.split('!', '?', '.')
 end
 end
