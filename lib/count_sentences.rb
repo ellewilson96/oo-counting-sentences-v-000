@@ -21,3 +21,4 @@ class String
       return self.length
   end
 end
+end
